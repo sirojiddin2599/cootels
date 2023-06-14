@@ -1,0 +1,96 @@
+@font-face {
+  font-family: montserrat;
+  src: url("../fonts/Montserrat-Regular.ttf");
+}
+@font-face {
+  font-family: inter;
+  src: url(../fonts/Inter-Regular.ttf);
+}
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: inter;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+}
+
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.hero__info {
+  width: 50%;
+}
+.hero__img {
+  width: 50%;
+  padding: 8rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 2.4rem;
+  align-items: start;
+}
+.hero__img img {
+  width: 100%;
+}
+.hero__img img:nth-child(2) {
+  padding-top: 8.7rem;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3.6rem 0 3.6rem 0;
+}
+.nav__logo {
+  font-size: 3.2rem;
+  font-weight: 600;
+  line-height: 3.9rem;
+  font-family: montserrat;
+  color: #192252;
+}
+.nav__menu {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 3.2rem;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.9rem;
+}
+.nav__menu a {
+  color: #192252;
+}
+.nav__btn button {
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.9rem;
+  padding: 1.6rem 3.2rem;
+  border-radius: 0.4rem;
+  background-color: #0e1734;
+  color: #ffffff;
+}
